@@ -6,4 +6,3 @@ class User(SQLModel, table=True):
     username: str = Field(primary_key=True)
     hashed_password: str
     disabled: bool | None = None
-    token: str | None = None

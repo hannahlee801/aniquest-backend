@@ -17,6 +17,7 @@ from database import get_db
 from models import User
 from schemas import CreateUserRequest, Token, TokenData
 
+load_dotenv()
 # create random secret key
 # to get a string like this run:
 # openssl rand -hex 32
